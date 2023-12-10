@@ -1,8 +1,8 @@
 file = open('input.txt', 'r')
+lines = file.readlines()
+file.close()
 
 totalPower = 0
-
-lines = file.readlines()
 
 for line in lines:
     maxR = 0
