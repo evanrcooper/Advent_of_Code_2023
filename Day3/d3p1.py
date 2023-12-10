@@ -44,6 +44,9 @@ def isAdjacent(lines, i, j):
 
 sum = 0
 
+# TRY PADDING EDGES WITH '.'
+# IF ADJACENT ALSO WRAPS AROUND THEN PAD IT WITH THE CHAR FROM THE END OF THE LINE
+
 for i in range(len(lines)):
     j = 0
     while j < len(lines[i]):
